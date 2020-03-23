@@ -12,4 +12,4 @@ puts "Ton prenom"
 prenom = gets.chomp
 puts "Ton nom"
 nom =gets.chomp
-puts "Salut #{prenom +" "+ nom} "
+puts "Salut #{prenom +" "+ nom}"

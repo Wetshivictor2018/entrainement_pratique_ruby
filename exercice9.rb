@@ -1,12 +1,15 @@
-class User
-    attr_accessor :prenom, :nom
-end
+#class User
+#    attr_accessor :prenom, :nom
+#end
 
-ser = User.new
-ser.prenom = "Serge"
-puts "c'est quoi ton prenom"
-puts ser.prenom
+#ser = User.new
+#ser.prenom = "Serge"
+#ser.nom = "Levis"
+#puts "c'est quoi ton prenom"
+#puts "Bonjour " + ser.prenom +  ser.nom
 
-ser.nom = "Levis"
-puts "Et ton nom ?"
-puts ser.nom
+puts "Ton prenom"
+prenom = gets.chomp
+puts "Ton nom"
+nom =gets.chomp
+puts "Salut #{prenom +" "+ nom} "

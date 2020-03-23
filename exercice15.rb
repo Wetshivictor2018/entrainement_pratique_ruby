@@ -12,6 +12,8 @@ compt_annee.times do |v| v+=1
   puts "En #{annee_naiss}"
   if v <= 1 #j'ai posé une condition. Pourquoi ? C'est pour evité le pluriel (le "s" sur le an de 0 et 1)
     puts "J'avais #{v} an"
+    elsif annee_naiss >= annee_actuelle
+      puts "J'aurais #{v} ans"
   else
     puts "J'avais #{v} ans"
   end

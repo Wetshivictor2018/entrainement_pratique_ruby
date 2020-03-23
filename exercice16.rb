@@ -1,8 +1,6 @@
 puts "Quelle est votre age :?"
 
 age = gets.chomp.to_i
-annee = Time.new.year
-annee2 = annee - age
 age.times do |w| w+=1
   age-=1
 
